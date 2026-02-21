@@ -1,0 +1,33 @@
+{
+  "rules": [{
+    "feature": "sleep_hours",
+    "ideal_value": 8.0,
+    "advice_if_low": "Your sleep is below the ideal 8 hours. Prioritizing more sleep is a highly effective way to reduce stress.",
+    "advice_if_high": "Excellent work! You are getting the ideal amount of sleep, which is crucial for managing stress."
+  },
+    {
+      "feature": "device_hours_per_day",
+      "ideal_value": 2.5,
+      "advice_if_low": "You have a healthy balance with your device usage. Keeping screen time low is great for your mental well-being.",
+      "advice_if_high": "Your daily screen time is higher than the optimal 2.5 hours. Consider setting usage timers or finding offline hobbies to help lower digital-related stress."
+    },
+    {
+      "feature": "notifications_per_day",
+      "ideal_value": 150.0,
+      "advice_if_low": "You manage your notifications very well. Keeping them low helps maintain focus and reduces constant digital interruptions.",
+      "advice_if_high": "Your daily notifications are high. Try using 'Do Not Disturb' mode or batch-checking alerts to regain control and lower stress."
+    },
+    {
+      "feature": "phone_unlocks",
+      "ideal_value": 20.0,
+      "advice_if_low": "You have great discipline with your phone usage, unlocking it fewer times than the typical user. This is a healthy habit!",
+      "advice_if_high": "You unlock your phone frequently. This can be a sign of distraction. Being more mindful about when you check your phone can help improve focus."
+    },
+    {
+      "feature": "sleep_quality",
+      "ideal_value": 5.0,
+      "advice_if_low": "Your sleep quality is not at its best. Improving it by creating a relaxing bedtime routine could significantly lower your stress.",
+      "advice_if_high": "You're getting high-quality sleep, which is fantastic! This is one of the best things you can do for your mental and physical health."
+    }
+  ]
+}
